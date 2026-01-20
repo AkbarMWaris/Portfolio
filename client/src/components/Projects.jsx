@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import {  Code2Icon, Link } from 'lucide-react';
 
 const projects = [
      { 
@@ -15,20 +16,20 @@ const projects = [
     id: 2, 
     title: 'QuickShow Movie App', 
     img: '/assets/p1-img.png', 
-    desc: 'Movie booking app with search and tickets.',
-    tech: 'React, Supabase, Tailwind',
+    desc: 'Movie booking app along clerk authentication ease in login.',
+    tech: 'React, MongoDB, Tailwind',
     live: 'https://quickshow-bookticket.vercel.app/',
-    source: 'https://github.com/yourusername/quickshow'
+    source: 'https://github.com/akbarmwaris/quickshow'
   },
 
   { 
     id: 3, 
     title: 'FindWork Job Portal', 
-    img: 'https://images.unsplash.com/photo-1556757347-48e109ab8d93?w=400', 
+    img: '/assets/p2-img.png', 
     desc: 'Full MERN job search platform with auth and postings.',
-    tech: 'React, Node, MongoDB, Tailwind',
-    live: 'https://findwork.vercel.app',
-    source: 'https://github.com/yourusername/findwork'
+    tech: 'React, Node, SupaBase, Tailwind',
+    live: 'https://findwork-new.netlify.app/',
+    source: 'https://github.com/akbarmwaris/findwork'
   },
  
 ];
@@ -79,26 +80,30 @@ const Projects = () => (
             
             {/* Live & Source Buttons */}
             <div className="flex gap-3">
-              <motion.a
-                href={project.live}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex-1 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-white text-sm font-semibold py-2.5 px-4 rounded-lg text-center shadow-lg hover:shadow-emerald-500/25 transition-all duration-300"
-              >
-                Live Demo
-              </motion.a>
-              <motion.a
-                href={project.source}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex-1 bg-gradient-to-r from-slate-700 to-slate-600 hover:from-slate-600 hover:to-slate-500 text-white text-sm font-semibold py-2.5 px-4 rounded-lg text-center shadow-lg hover:shadow-slate-500/25 transition-all duration-300"
-              >
-                Source
-              </motion.a>
+               <motion.a
+    href={project.live}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-white text-sm font-semibold py-2.5 px-4 rounded-lg shadow-lg hover:shadow-emerald-500/25 transition-all duration-300"
+  >
+    Live Link
+    <Link size={16} />
+  </motion.a>
+  
+  {/* Source Code Button + Code Icon */}
+  <motion.a
+    href={project.source}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-slate-700 to-slate-600 hover:from-slate-600 hover:to-slate-500 text-white text-sm font-semibold py-2.5 px-4 rounded-lg shadow-lg hover:shadow-slate-500/25 transition-all duration-300"
+  >
+    Source Code
+    <Code2Icon size={16} />
+  </motion.a>
             </div>
           </div>
         </motion.div>
