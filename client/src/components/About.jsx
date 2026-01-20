@@ -41,7 +41,7 @@ const About = () => (
             Passionate Full-Stack Developer
           </h3>
           <p className="text-xl text-slate-300 leading-relaxed">
-            Self-taught developer from <span className="text-cyan-400 font-semibold">Patna, Bihar</span>, passionate about building scalable web apps with <span className="text-purple-400 font-semibold">MERN stack</span>.
+            Self-taught developer from <span className="text-cyan-400 font-semibold">Darbhanga, Bihar</span>, passionate about building scalable web apps with <span className="text-purple-400 font-semibold">MERN stack</span>.
           </p>
         </div>
         

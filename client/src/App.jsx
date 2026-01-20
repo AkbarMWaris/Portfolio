@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import './index.css';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           </main>
         </div>
               <Footer />
+              <Toaster/>
       </div>
     </Router>
   );
