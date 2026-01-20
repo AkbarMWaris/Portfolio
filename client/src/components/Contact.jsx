@@ -20,7 +20,7 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY     // ← From .env
       );
       
-      toast.success('Message sent to your Gmail! 🎉');
+      toast.success('Message sent Successfully🎉');
       reset();
     } catch (error) {
       toast.error('Failed to send. Try again!');
