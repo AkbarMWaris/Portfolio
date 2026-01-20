@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-32 max-w-7xl mx-auto px-4">
-      <motion.h2 className="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+      <motion.h2 className="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
         Contact Me
       </motion.h2>
       
