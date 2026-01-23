@@ -4,12 +4,12 @@ import {  Code2Icon, Link } from 'lucide-react';
 const projects = [
      { 
     id: 1, 
-    title: 'Boardify Dashboard', 
-    img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400', 
-    desc: 'Admin dashboard with analytics and user management.',
-    tech: 'React, Tailwind, Chart.js',
-    live: 'https://boardify.vercel.app',
-    source: 'https://github.com/yourusername/boardify'
+    title: 'Portfolio', 
+    img: '/assets/p3-img.png', 
+    desc: 'Personal portfolio website.',
+    tech: 'React, Tailwind, Framer Motion',
+    live: 'https://akbarmwaris-portfolio.vercel.app/',
+    source: 'https://github.com/akbarmwaris/portfolio'
   },
   
   { 

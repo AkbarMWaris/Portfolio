@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin } from 'lucide-react';  // Add icons import
+import { File, Github, Linkedin } from 'lucide-react';  // Add icons import
 
 const About = () => (
   <section id="about" className="py-32 max-w-7xl mx-auto px-4">
@@ -76,6 +76,18 @@ const About = () => (
   >
     <Linkedin size={20} />
     LinkedIn
+  </motion.a>
+
+  <motion.a
+    href="https://drive.google.com/file/d/1OEcuuwYyqkaHOOXl4tbKGj7GxqVPPx3U/view"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.05, y: -2 }}
+    whileTap={{ scale: 0.95 }}
+    className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-slate-800/70 to-purple-900/70 hover:from-slate-700/80 hover:to-purple-800/80 backdrop-blur-sm border border-purple-700/50 hover:border-purple-500/70 text-white p-4 rounded-xl font-semibold shadow-xl hover:shadow-purple-500/30 transition-all duration-300"
+  >
+    <File size={20} />
+    Resume
   </motion.a>
 </div>
 
