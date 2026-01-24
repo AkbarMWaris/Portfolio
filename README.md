@@ -2,10 +2,9 @@
 
 # 🚀 AM Waris - Full Stack Developer Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=AM+Waris+Portfolio)
+![Portfolio Preview](/client/public/assets/p3-img.png)
 <!-- Replace with your screenshot after deployment -->
 
-[![Vercel](https://thereadme.fun/api/deploy?repository=yourusername/portfolio)](https://vercel.com/new/git/external)
 
 </div>
 
